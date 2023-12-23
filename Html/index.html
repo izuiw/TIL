@@ -5,10 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }        
+        th,td {
+            border: 1px solid #333;
+            width: 200px;
+        }
+    </style>
 </head>
 <body>
     <!--구현-->
     <p><b>ipsum dolor sit </b>, <br> &nbsp;amet consectetur adipisicing elit. Labore incidunt nihil error doloremque aperiam optio non voluptatum voluptatem in sint!
     </p> <!--lorem20-->
+
+    <ul>
+        <li>리스트1</li>
+        <li>리스트2</li>
+        <li>리스트3</li>
+    </ul>
+
+    <ul>
+        <ol><a href="http://naver.com" target="_blank">NAVER</a></ol>
+            <!--a링크 속성 
+                    -target="_blank" : 새창 -->
+        <ol><a href="https://github.com/izuiw">githusb</a></ol>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">지역</th>
+                <!--<th>IE</th>-->
+                <th>Chrome</th>
+                <th>Firefox</th>
+            </tr>
+        </thead>
+      
+            
+        <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            
+            </tr>
+            <caption>캡션 테그는 상단에 들어감</caption>
+        </tbody>
+    </table>
+<br>
+    <form action="">
+        
+         <label for="nick">닉네임 : </label>
+         <input type="text" value="hello" placeholder="입력하세요" />
+         <input type="number" max="10" placeholder="number"/>
+         <input type="password" placeholder="패스워드">
+         <input type="date" placeholder="date"> <!-- 간단한 걸, 끌어다가 썼었네...-->
+    </form>
+
+<textarea name="" id="" cols="30" rows="10"> 텍스트 에리어~</textarea>
+    
+     <p>
+        단락(용도)   구분 태그들 : p , div , span
+
+     </p>
+     <hr>
+     <ul>
+        <li>header : 문서에서 상단의 메뉴들 (로고, 제목 등등)</li>
+        <li>nav :  메뉴</li>
+        <li>section : 컨탠츠 </li>
+        <li>aside : 부가적인 배너나, 내용</li>
+        <li>article : 컨탠츠 </li>
+        <li>footer : 하단의 카피라이트, 등등 </li>
+        
+
+     </ul>
+    <br>
+    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbKy6Mm%2FbtqKfqu72Ga%2F05lByPgN2H0tYN3lHP3VU1%2Fimg.png" alt="춘식이" />
+
+
+
 </body>
 </html>
