@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+
+    /*css에서는 모든 태그들은 Block, Inline 속성을 가지고 있음 
+     -대표적으로 div태그 
+     
+     
+
+    **FLEX
+        - Float 없이 정렬 
+        - 반응형 친화적
+        - 자식 요소 위치 잡기가 쉬움
+        - 마진에서 자유로움
+        - 작은 단위의 레이아웃을 잡을 때 
+
+
+    **GRID
+        - 반응형에 친화적 
+        
+
+     */
+}
+
+h3 {
+    color: red;
+}
+article {
+    border: 1px solid red;
+}
+/*s
+article > p {
+    color: green;
+}
+
+article > p:nth-child(2) {
+    color: skyblue;
+}
+*/
+
+
+/*id 선택시, #id */
+#outerP{
+    color: brown;
+}
+
+/*class 선택시, .classId*/
+.innerP{
+    color: salmon;
+}
+
+h1 {
+    border: 1px solid yellowgreen;
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+    min-height: 200px;
+    text-align:  center;
+    line-height: 200px;
+}
+
+li {
+    font-size: 24px;
+    border: 1px solid #333;
+    float: none; /*정렬*/
+
+    margin: 20px;
+}
+
+ul > li:nth-child(2) {
+    padding: 20px;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    * 태그에 직접 스타일을 주는 경우 (재사용 및, 수정이 용이하지 않기 때문에 좋은 방법이 아님)
+    <h1 style="color: red;">Css</h1> 
+    <p id="outerP" style="font-size: 24px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eum praesentium impedit consequatur eveniet tempore voluptatum deleniti vero, nostrum veniam?</p>
+    
+
+    *style 태그를 이용하여 스타일을 주는 경우 (재사용이 어려움) 
+    <style>
+        h2 {
+            color: blue;
+        }
+        div {
+            color:  blueviolet;
+        }
+    </style>
+
+    <h2>Css</h2>
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti quasi nostrum nisi, in ducimus officiis delectus? Earum deleniti nisi eveniet?</div>
+
+
+    * Css파일을 따로 관리하는 경우 (link를 이용 하는 경우)
+    <h3>Css</h3>
+    <article>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem laborum officia veritatis dolor quas ullam pariatur itaque velit sunt culpa.
+        <p class="innerP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum distinctio magni ipsa temporibus autem voluptate numquam eos, accusamus sapiente doloremque!</p>
+        <p class="innerP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum distinctio magni ipsa temporibus autem voluptate numquam eos, accusamus sapiente doloremque!</p>
+        <p class="innerP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum distinctio magni ipsa temporibus autem voluptate numquam eos, accusamus sapiente doloremque!</p>
+        <p class="innerP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum distinctio magni ipsa temporibus autem voluptate numquam eos, accusamus sapiente doloremque!</p>
+    </article>
+
+
+
+    <ul>
+        <li>title1</li>
+        <li>title2</li>
+        <li>title3</li>
+        <li>title4</li>
+    </ul>
+</body>
+</html>
