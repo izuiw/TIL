@@ -8,3 +8,25 @@
       * 함수 형태 / 객체지향 형태 
    * 클라이언트 언어이다. 
      * node.js를 이용하여 확장성이 커짐.  
+
+
+# 2. 변수와 데이터 타입
+   ## 2-1. 변수
+   * ### var 
+     * window 객체변수가 추가됨 -> window는 핵심이 되는 객체이기 때문에, var와 같이 window에 저장되는 것은 좋지 않음 
+     * 반복문처럼 코드 블럭 안에서 선언된 지역변수가, 코드 블럭 밖에서 사용될 수 있음 
+   * ### let 
+     * var 와 달리 window에 저장되지 않음
+     * 재정의 가능
+
+   * ### const
+     * 선언된 변수 값은 변하지 않음 (재정의 X)
+
+   ## 2-1. 데이터 타입
+   * String, Number(int float), boolean, null, undefined, symbol(Object와 유사..)
+  
+# 3. Array
+
+   
+
+
